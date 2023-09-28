@@ -75,7 +75,7 @@
 }
 
 .mapContainer {
-  width: 100%;
+  width: 80vw;
   height: 98vh;
   display: flex;
   justify-content: center;

@@ -47,10 +47,8 @@ const Map = ({ selectedCoordinate, setCoordinates }) => {
             lat: selectedCoordinate?.lat,
             lng: selectedCoordinate?.lng
           }}
-          icon={GetIcon()}>
-          {' '}
-          <Popup>You are here</Popup>
-        </Marker>
+          interactive={false}
+          icon={GetIcon()}/>
       )}
 
       <div>
